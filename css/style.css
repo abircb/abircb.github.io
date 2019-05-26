@@ -3,6 +3,19 @@ body {
   background-color: #17182f;
 }
 
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 6.9vw;
+  text-align: center;
+  line-height: normal;
+}
+
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
 canvas {
   display: block;
   vertical-align: bottom;
@@ -30,19 +43,6 @@ img {
   left: 50%;
   top: 40%;
   transform: translate(-50%, -50%);
-}
-
-h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 6.9vw;
-  text-align: center;
-  line-height: normal;
-}
-
-h4 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.4vw;
-  text-align: center;
 }
 
 .fa {
