@@ -19,4 +19,5 @@ function load() {
 
 function ready() {
   document.getElementById("loading-area").style.opacity = '0';
+  document.getElementById("load-button").style.opacity = '1';
 }
