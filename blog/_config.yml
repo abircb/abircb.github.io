@@ -77,5 +77,5 @@ theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: https://github.com/abircb/abircb.github.io.git/blog
+deploy: https://github.com/abircb/abircb.github.io/blog
 type: git
