@@ -1680,7 +1680,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #f96332;
+  background-color: #888888;
   color: #FFFFFF;
 }
 
@@ -5509,7 +5509,7 @@ img {
 }
 
 .card[data-background-color="orange"] {
-  background-color: #f96332;
+  background-color: #888888;
 }
 
 .card[data-background-color="red"] {
