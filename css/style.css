@@ -35,7 +35,6 @@ img {
 }
 
 /* ---- particles.js container ---- */
-
 #particles-js {
   position: absolute;
   width: 100%;
@@ -50,6 +49,16 @@ img {
 #load-button {
   opacity: 0;
   transition: 0.8s opacity;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#load-button a,
+#load-button a:hover,
+#load-button a:active {
+  text-decoration: none;
+  outline: none;
+  color: #000000;
 }
 
 .loading-block {
@@ -63,7 +72,7 @@ img {
 }
 
 .fa {
-    transform: translateY(-4%);
+  transform: translateY(-4%);
 }
 
 /* --- progress bar --- */
@@ -79,4 +88,11 @@ img {
   text-align: center;
   line-height: 30px;
   color: white;
+}
+
+#content {
+  -webkit-animation: fadein 0.7s;
+  -moz-animation: fadein 0.7s;
+  -o-animation: fadein 0.7s;
+  animation: fadein 0.7s;
 }

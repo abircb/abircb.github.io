@@ -7,11 +7,10 @@ function load() {
     if (width >= 100) {
       clearInterval(id);
       ready();
-    }
-    else {
+    } else {
       width++;
       elem.style.width = width + '%';
-      elem.innerHTML = width * 1  + '%';
+      elem.innerHTML = width * 1 + '%';
     }
   }
 
