@@ -20,3 +20,7 @@ function ready() {
   document.getElementById("loading-area").style.opacity = '0';
   document.getElementById("load-button").style.opacity = '1';
 }
+
+function explore() {
+  document.getElementById("load-button").style.opacity = '0';
+}
