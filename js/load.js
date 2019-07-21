@@ -23,4 +23,4 @@ function ready() {
 
 function explore() {
   document.getElementById("load-button").style.opacity = '0';
-} 
+}
