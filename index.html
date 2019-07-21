@@ -1,24 +1,36 @@
-  <!DOCTYPE html>
-  <html lang="en-US" >
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Abir Bhushan</title>
-      <meta name="description" content="Personal website of Abir Bhushan">
-      <meta name="keywords" content="Abir, Bhushan, Abir Bhushan, Abir Chandra Bhushan, UCL Computer Science, The British School, London, New Delhi, ">
-          <link rel="stylesheet" href="css/style.css">
-          <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    </head>
-    <body>
-      <!-- particles.js container -->
-    <div id="particles-js">
-      <div class="text-block">
-        <h1>UNDER CONSTRUCTION</h1>
-        <h4>SITE NEARLY READY</h4>
-        <img src="images/loading.png">
-        <h4>78%</h4>
-        <div style="text-align: center;">
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abir Bhushan</title>
+  <meta name="description" content="Personal website of Abir Bhushan">
+  <meta name="keywords" content="Abir, Bhushan, Abir Bhushan, Abir Chandra Bhushan, UCL Computer Science, The British School">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+</head>
+
+<body onload="load()">
+  <!-- particles.js container -->
+  <div id="particles-js">
+    <div id="content">
+      <div class="loading-block" id="loading-area">
+        <h4>
+          <div id="start-text">SITE NEARLY READY</div>
+        </h4>
+        <div id="myProgress">
+          <h5>
+            <div id="myBar">8%</div>
+          </h5>
+        </div>
+        <div id="icons" style="text-align: center;">
           <a href="https://www.ucl.ac.uk/" style="color: white;" target="_blank"><i class="fas fa-university fa-2x"></i></a>
           &nbsp;&nbsp;
           <a href="https://github.com/abircb" style="color: white;" target="_blank"><i class="fab fa-github fa-2x"></i></a>
@@ -29,14 +41,25 @@
           &nbsp;&nbsp;
           <a href="files/AbirBhushanCV.pdf" download style="color: white;" target="_blank"><i class="far fa-file-pdf fa-2x"></i></a>
           &nbsp;&nbsp;
-          <a href="https://abircb.github.io/blog/" style="color: white;" target="_blank"><i class="fas fa-feather-alt fa-2x"></i></a>
+          <a href="https://abirbhushan.com/blog/" style="color: white;" target="_blank"><i class="fas fa-feather-alt fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="loading-block">
+        <div id="load-button">
+          <button style="border: none; border-radius: 12px;" onclick="window.location.href='profile-page.html'">
+            <h4>&nbsp;&nbsp;&nbsp;&nbsp;ENTER&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+          </button><br><br>
+          <button style="border: none; border-radius: 12px;" onclick="location.href='https://abirbhushan.com/nightsky-simulation'">
+            <h4>&nbsp;&nbsp;&nbsp;EXPLORE&nbsp;&nbsp;&nbsp;</h4>
+          </button><br><br>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script  src="js/index.js"></script>
-    <script src="https://use.fontawesome.com/9e60d7554d.js"></script>
-    </body>
-  </html>
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+  <script src="js/background.js"></script>
+  <script src="js/load.js"></script>
+</body>
+
+</html>

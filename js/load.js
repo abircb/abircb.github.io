@@ -7,11 +7,10 @@ function load() {
     if (width >= 100) {
       clearInterval(id);
       ready();
-    }
-    else {
+    } else {
       width++;
       elem.style.width = width + '%';
-      elem.innerHTML = width * 1  + '%';
+      elem.innerHTML = width * 1 + '%';
     }
   }
 
@@ -20,4 +19,8 @@ function load() {
 function ready() {
   document.getElementById("loading-area").style.opacity = '0';
   document.getElementById("load-button").style.opacity = '1';
+}
+
+function explore() {
+  document.getElementById("load-button").style.opacity = '0';
 }
