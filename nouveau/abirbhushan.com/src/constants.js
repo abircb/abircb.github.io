@@ -6,13 +6,13 @@ import WelcomeSection from './components/section/Welcome.vue';
 import WorkSection from './components/section/Work.vue';
 
 // Images
+import WelcomeImage from './components/supporting-image/Welcome.vue';
 import ContactImage from './components/supporting-image/Contact.vue';
 import FTICImage from './components/supporting-image/FTIC.vue';
 import SkillsImage from './components/supporting-image/Skills.vue';
 import WorkImage from './components/supporting-image/Work.vue';
 
 // Icons
-import AboutIcon from './assets/icons/About.svg'
 import ContactIcon from './assets/icons/Contact.svg';
 import FTICIcon from './assets/icons/FTIC.svg';
 import SkillsIcon from './assets/icons/Skills.svg';
@@ -50,7 +50,7 @@ export const Sections = new Map([
       color: '#121936',
       content: null,
       icon: null,
-      image: null,
+      image: WelcomeImage,
       title: 'About',
     }
   ],
