@@ -1,8 +1,15 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faSpinner, faBlog, faUniversity } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-Vue.config.productionTip = false
+library.add([faSpinner, faGithub, faLinkedin, faBlog, faUniversity])
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+Vue.config.productionTip = false;
 
 new Vue({
-  render: (h) => h(App),
-}).$mount('#app')
+  render: h => h(App),
+}).$mount('#app');
