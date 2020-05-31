@@ -1,9 +1,11 @@
 module.exports = {
     root: true,
     extends: [
-      'plugin:vue/vue3-recommended'
+      'plugin:vue/vue3-recommended',
     ],
-    rules: {},
+    rules: {
+      'vue/component-definition-name-casing': ['error', 'PascalCase'],
+    },
     parserOptions: {
         parser: 'babel-eslint',
     }

@@ -1,18 +1,22 @@
 <template>
   <div id="app">
     <SupportingImage class="image" :sectionKey="sectionKey" v-if="!mobile" />
-    <Content class="content" :sectionKey="sectionKey" @changeSection="handleChangeSection" />
+    <Content
+      class="content"
+      :sectionKey="sectionKey"
+      @changeSection="handleChangeSection"
+    />
   </div>
 </template>
 
 <script>
-import SupportingImage from './components/SupportingImage.vue';
-import Content from './components/Content.vue';
-import { Sections, SectionKeys } from './constants.js';
+import SupportingImage from './components/SupportingImage.vue'
+import Content from './components/Content.vue'
+import { Sections, SectionKeys } from './constants.js'
 
 const mobileMediaQuery = window.matchMedia
   ? window.matchMedia('(max-width: 550px)')
-  : null;
+  : null
 
 export default {
   name: 'App',
@@ -26,28 +30,28 @@ export default {
   }),
   methods: {
     handleChangeSection(sectionKey) {
-      const section = Sections.get(sectionKey);
+      const section = Sections.get(sectionKey)
       if (section) {
-        this.sectionKey = sectionKey;
+        this.sectionKey = sectionKey
         document.title = `Abir Bhushan${
           section.title ? ` | ${section.title}` : ''
-        }`;
+        }`
       }
     },
     testMediaQuery(e) {
-      this.mobile = e.matches;
+      this.mobile = e.matches
     },
   },
   created() {
-    if (!mobileMediaQuery) return;
-    this.testMediaQuery(mobileMediaQuery);
-    mobileMediaQuery.addListener(this.testMediaQuery);
+    if (!mobileMediaQuery) return
+    this.testMediaQuery(mobileMediaQuery)
+    mobileMediaQuery.addListener(this.testMediaQuery)
   },
   destroyed() {
-    if (!mobileMediaQuery) return;
-    mobileMediaQuery.removeListener(this.testMediaQuery);
+    if (!mobileMediaQuery) return
+    mobileMediaQuery.removeListener(this.testMediaQuery)
   },
-};
+}
 </script>
 
 <style lang="scss">

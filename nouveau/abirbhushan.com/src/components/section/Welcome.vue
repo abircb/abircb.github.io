@@ -5,26 +5,34 @@
 
     <div class="media-panel">
       <div class="col">
-        <font-awesome-icon :icon="['fab', 'linkedin']" />
+        <a href="https://linkedin.com/in/abirbhushan" target="_blank"
+          ><FontAwesomeIcon :icon="['fab', 'linkedin']"
+        /></a>
       </div>
 
       <div class="col">
-        <font-awesome-icon :icon="[ 'fab', 'github' ]" />
+        <a href="https://github.com/abircb" target="_blank"
+          ><FontAwesomeIcon :icon="['fab', 'github']"
+        /></a>
       </div>
 
       <div class="col">
-        <font-awesome-icon :icon="['fas', 'blog']" />
+        <a href="https://abirbhushan.com/blog" target="_blank"
+          ><FontAwesomeIcon :icon="['fas', 'blog']"
+        /></a>
       </div>
 
       <div class="col">
-        <font-awesome-icon :icon="['fas', 'university']" />
+        <a href="https://www.ucl.ac.uk/" target="_blank"
+          ><FontAwesomeIcon :icon="['fas', 'university']"
+        /></a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default { name: 'Welcome',}
+export default { name: 'Welcome' }
 </script>
 
 <style scoped lang="scss">
@@ -38,6 +46,11 @@ export default { name: 'Welcome',}
 
   h1 {
     font-size: 42px;
+  }
+
+  a:hover,
+  a:visited {
+    color: #000000;
   }
 
   .media-panel {
