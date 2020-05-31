@@ -1,5 +1,6 @@
 // Content
 import ContactSection from './components/section/Contact.vue'
+import AboutSection from './components/section/About.vue'
 import FTICSection from './components/section/FTIC.vue'
 import SkillsSection from './components/section/Skills.vue'
 import WelcomeSection from './components/section/Welcome.vue'
@@ -48,10 +49,10 @@ export const Sections = new Map([
     'ABOUT',
     {
       color: '#121c26',
-      content: null,
+      content: AboutSection,
       icon: null,
       image: WelcomeImage,
-      title: 'About',
+      title: 'A little about me',
     },
   ],
   [
@@ -67,7 +68,7 @@ export const Sections = new Map([
   [
     'WORK',
     {
-      color: '#729974',
+      color: '#4f8c52',
       content: WorkSection,
       icon: WorkIcon,
       image: WorkImage,

@@ -38,11 +38,11 @@
     <div class="col">
       <h2>Technologies</h2>
       <ul>
-        <li>Webpack</li>
-        <li>Gulp</li>
         <li>Git</li>
         <li>Docker</li>
         <li>Travis CI</li>
+        <li>Webpack</li>
+        <li>Gulp</li>
       </ul>
     </div>
   </div>
