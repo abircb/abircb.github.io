@@ -4,10 +4,11 @@
       <div class="name">
         {{ name }}
       </div>
+      <div class="position">{{ position }}</div>
       <div class="dates">
         {{ formatDate(from) }} &ndash; {{ formatDate(to) }}<br />
       </div>
-      <div class="freelance" v-if="contract">Freelance</div>
+      <div class="part-time" v-if="partTime">Part-time</div>
     </div>
     <div class="right">
       <slot></slot>
@@ -22,7 +23,8 @@ export default {
   name: 'Company',
   props: {
     name: String,
-    contract: Boolean,
+    position: String,
+    partTime: Boolean,
     from: Date,
     to: Date,
   },
@@ -53,7 +55,7 @@ export default {
   }
 
   .right {
-    color: #364;
+    color: #000000;
     flex: 2 0 250px;
     font-size: 0.875em;
     line-height: 1.5;
@@ -69,13 +71,19 @@ export default {
   }
 
   .name {
-    color: #474;
+    color: #000000;
     font-size: 1.25em;
     margin-bottom: 8px;
 
     @media print {
       color: inherit;
     }
+  }
+
+  .position {
+    font-size: 0.875em;
+    line-height: 1.4;
+    margin-bottom: 8px;
   }
 
   .dates {
@@ -85,8 +93,8 @@ export default {
     text-transform: uppercase;
   }
 
-  .freelance {
-    background: #729974;
+  .part-time {
+    background: #000000;
     border-radius: 4px;
     color: white;
     display: inline-block;
