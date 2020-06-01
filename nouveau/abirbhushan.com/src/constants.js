@@ -15,9 +15,9 @@ import WorkImage from './components/supporting-image/Work.vue'
 
 // Icons
 import ContactIcon from './assets/icons/Contact.svg'
-import FTICIcon from './assets/icons/FTIC.svg'
 import SkillsIcon from './assets/icons/Skills.svg'
 import WorkIcon from './assets/icons/Work.svg'
+import FTICIcon from './assets/icons/FTIC.svg'
 
 export const Months = [
   'Jan',

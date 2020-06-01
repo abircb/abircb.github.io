@@ -3,9 +3,9 @@
     <h2>
       Born and raised in New Delhi, I am currently in London exploring the
       realms of Computer Science and Engineering as an undergraduate at
-      University College London (UCL). My interests lie in (Full stack) Software
-      Engineering and Machine Learning, and I often work on on open source
-      software development to keep myself busy.
+      University College London (UCL). My interests lie in (Full-stack) Software
+      Engineering and Machine Learning, and I often work on open-source software
+      development to keep myself busy.
     </h2>
     <h2>
       Here is a featured project:

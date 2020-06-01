@@ -1,5 +1,7 @@
 <template>
-  <WelcomeImage :class="`image ${visible && 'visible'}`" />
+  <div class="container">
+    <WelcomeImage :class="`image ${visible && 'visible'}`" />
+  </div>
 </template>
 
 <script>
@@ -17,11 +19,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.image {
-  opacity: 0;
+.container {
+  .image {
+    opacity: 0;
+    margin-top: 61%;
+    margin-left: 6%;
 
-  &.visible {
-    opacity: 1;
+    &.visible {
+      opacity: 1;
+    }
   }
 }
 </style>
