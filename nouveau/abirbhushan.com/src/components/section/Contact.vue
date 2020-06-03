@@ -4,7 +4,10 @@
       I&apos;m currently living in London, though I'm open to opportunities
       across the globe.
     </p> -->
-    <p>Email me at <a href="mailto:mike@berman.xyz">mike@berman.xyz</a>.</p>
+    <p>
+      Email me at
+      <a href="mailto:bhushan.abir@gmail.com">bhushan.abir@gmail.com</a>.
+    </p>
   </div>
 </template>
 
@@ -18,10 +21,9 @@ export default {
 .contact {
   a {
     color: inherit;
-    text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }

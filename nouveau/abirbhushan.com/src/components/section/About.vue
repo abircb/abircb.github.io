@@ -33,9 +33,12 @@ export default { name: 'About' }
     margin-bottom: 1em;
   }
 
-  a:hover,
-  a:visited {
-    color: #000000;
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .media-panel {
