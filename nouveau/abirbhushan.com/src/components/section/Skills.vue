@@ -3,7 +3,7 @@
     <div class="col">
       <h2>Languages</h2>
       <ul>
-        <li>Python 3</li>
+        <li>Python</li>
         <li>Java</li>
         <li>JavaScript</li>
         <ul>

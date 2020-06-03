@@ -35,9 +35,9 @@ export default {
 
 <style lang="scss">
 .section-icon {
-  height: 2em;
   vertical-align: middle;
-  width: 2em;
+  width: 1.2em;
+  height: 1em;
 
   .stroke {
     fill: none;

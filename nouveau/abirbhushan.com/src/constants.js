@@ -1,7 +1,7 @@
 // Content
 import ContactSection from './components/section/Contact.vue'
 import AboutSection from './components/section/About.vue'
-import FTICSection from './components/section/FTIC.vue'
+import OpenSourceSection from './components/section/OpenSource.vue'
 import SkillsSection from './components/section/Skills.vue'
 import WelcomeSection from './components/section/Welcome.vue'
 import WorkSection from './components/section/Work.vue'
@@ -17,7 +17,7 @@ import WorkImage from './components/supporting-image/Work.vue'
 import ContactIcon from './assets/icons/Contact.svg'
 import SkillsIcon from './assets/icons/Skills.svg'
 import WorkIcon from './assets/icons/Work.svg'
-import FTICIcon from './assets/icons/FTIC.svg'
+import OpenSourceIcon from './assets/icons/OpenSource.svg'
 
 export const Months = [
   'Jan',
@@ -48,7 +48,7 @@ export const Sections = new Map([
   [
     'ABOUT',
     {
-      color: '#121c26',
+      color: '#213345',
       content: AboutSection,
       icon: null,
       image: WelcomeImage,
@@ -76,13 +76,13 @@ export const Sections = new Map([
     },
   ],
   [
-    'FTIC',
+    'OPEN-SOURCE',
     {
-      color: '#AB58A4',
-      content: FTICSection,
-      icon: FTICIcon,
-      image: FTICImage,
-      title: 'Find the Invisible Cow',
+      color: '#DE9D36',
+      content: OpenSourceSection,
+      icon: OpenSourceIcon,
+      image: null,
+      title: 'Open source projects',
     },
   ],
   [

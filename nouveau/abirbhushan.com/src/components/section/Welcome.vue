@@ -48,9 +48,12 @@ export default { name: 'Welcome' }
     font-size: 42px;
   }
 
-  a:hover,
-  a:visited {
-    color: #000000;
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .media-panel {
