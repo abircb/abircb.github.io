@@ -9,7 +9,7 @@ import WorkSection from './components/section/Work.vue'
 // Images
 import WelcomeImage from './components/supporting-image/Welcome.vue'
 import ContactImage from './components/supporting-image/Contact.vue'
-import FTICImage from './components/supporting-image/FTIC.vue'
+import OpenSourceImage from './components/supporting-image/OpenSource.vue'
 import SkillsImage from './components/supporting-image/Skills.vue'
 import WorkImage from './components/supporting-image/Work.vue'
 
@@ -78,17 +78,17 @@ export const Sections = new Map([
   [
     'OPEN-SOURCE',
     {
-      color: '#DE9D36',
+      color: '#002D40', //#DE9D36
       content: OpenSourceSection,
       icon: OpenSourceIcon,
-      image: null,
+      image: OpenSourceImage,
       title: 'Open source projects',
     },
   ],
   [
     'CONTACT',
     {
-      color: '#002D40',
+      color: '#000000',
       content: ContactSection,
       icon: ContactIcon,
       image: ContactImage,

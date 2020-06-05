@@ -1,14 +1,14 @@
 <template>
-  <FTICImage :class="`image ${visible && 'visible'}`" />
+  <OpenSourceImage :class="`image ${visible && 'visible'}`" />
 </template>
 
 <script>
-  import FTICImage from '../../assets/layers/FTIC.svg'
+  import OpenSourceImage from '../../assets/layers/OpenSource.svg'
 
   export default {
     name: 'FTIC',
     components: {
-      FTICImage,
+      OpenSourceImage,
     },
     props: {
       visible: Boolean,
@@ -18,11 +18,11 @@
 
 <style scoped lang="scss">
   .image {
-    transform: translate3d(-160%, 0, -1000px);
+    transform: translate3d(-800px, 578px, -135px);
     transition: transform 0.5s;
 
     &.visible {
-      transform: translate3d(0, 0, 0);
+      transform: translate3d(-29px, 578px, -135px);
     }
   }
 </style>
