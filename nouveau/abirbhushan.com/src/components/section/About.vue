@@ -3,14 +3,17 @@
     <p>
       Born and raised in New Delhi, I am currently exploring the realms of
       Computer Science and Engineering as an undergraduate at University College
-      London (UCL). I thoroughly enjoy designing and developing — breaking and
-      optimising — all kinds of software, and I am particularly interested in
-      (Full-stack) Web Development and Machine Learning.
+      London (UCL). I enjoy designing and developing — breaking and optimising —
+      all kinds of software, and I am particularly interested in (Full-stack)
+      Web Development and Machine Learning.
     </p>
     <p>
       <strong>Featured</strong>:
-      <a href="https://shorturl.at/ditA0" target="_blank">COVID-19 Footprint</a>
+      <a href="https://shorturl.at/ditA0" target="_blank"
+        >COVID-19 Footprint | Coronavirus Live Tracker</a
+      >
     </p>
+    <!--
     <p>
       Some lists and graphs to know more about me ..
     </p>
@@ -19,34 +22,22 @@
       <li><a href="#">Books and Movies</a></li>
       <li><a href="#">Hardware</a></li>
     </ul>
+    -->
   </div>
 </template>
 
 <script>
-export default { name: 'About' }
+  export default { name: 'About' }
 </script>
 
 <style scoped lang="scss">
-.content {
-  a {
-    color: inherit;
+  .content {
+    a {
+      color: inherit;
 
-    &:hover {
-      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
-
-  .media-panel {
-    display: flex;
-    max-width: 600px;
-    padding-top: 2%;
-    align-items: center;
-    justify-content: center;
-
-    .col {
-      width: 25%;
-      padding: 50%;
-    }
-  }
-}
 </style>

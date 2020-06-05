@@ -12,19 +12,19 @@
 </template>
 
 <script>
-export default {
-  name: 'Contact',
-}
+  export default {
+    name: 'Contact',
+  }
 </script>
 
 <style scoped lang="scss">
-.contact {
-  a {
-    color: inherit;
+  .contact {
+    a {
+      color: inherit;
 
-    &:hover {
-      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
-}
 </style>

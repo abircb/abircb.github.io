@@ -41,17 +41,17 @@
 </template>
 
 <script>
-import Company from '../Company.vue'
+  import Company from '../Company.vue'
 
-export default {
-  name: 'Work',
-  components: {
-    Company,
-  },
-}
+  export default {
+    name: 'Work',
+    components: {
+      Company,
+    },
+  }
 </script>
 
 <style scoped lang="scss">
-.work {
-}
+  .work {
+  }
 </style>

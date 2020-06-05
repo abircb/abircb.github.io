@@ -1,7 +1,7 @@
 module.exports = {
   semi: false,
   singleQuote: true,
-  vueIndentScriptAndStyle: false,
+  vueIndentScriptAndStyle: true,
   bracketSpacing: true,
   arrowParens: 'always',
 }
