@@ -48,7 +48,7 @@ export const Sections = new Map([
   [
     'ABOUT',
     {
-      color: '#213345',
+      color: '#002D40',
       content: AboutSection,
       icon: null,
       image: WelcomeImage,
@@ -58,7 +58,7 @@ export const Sections = new Map([
   [
     'SKILLS',
     {
-      color: '#08435c',
+      color: '#0B648A',
       content: SkillsSection,
       icon: SkillsIcon,
       image: SkillsImage,
@@ -68,7 +68,7 @@ export const Sections = new Map([
   [
     'WORK',
     {
-      color: '#4f8c52',
+      color: '#69B86D',
       content: WorkSection,
       icon: WorkIcon,
       image: WorkImage,
@@ -78,7 +78,7 @@ export const Sections = new Map([
   [
     'OPEN-SOURCE',
     {
-      color: '#002D40', //#DE9D36
+      color: '#002D40',
       content: OpenSourceSection,
       icon: OpenSourceIcon,
       image: OpenSourceImage,
