@@ -29,13 +29,35 @@
       :to="new Date(2020, 2)"
       partTime
     >
+      <li>
+        Leading and orgranising weekly tutorials for 8 first-year undergraduate
+        Computer Science students on the Bachelor's and the Integrated Master's
+        degree.
+      </li>
+      <li>
+        Helping them build a foundation in the subject by assisting them with
+        their Programming (C, Haskell, Java, and Python) and Logic (Theory of
+        Computation and Compilers) modules.
+      </li>
     </Company>
+
     <Company
       name="Infibeam Avenues"
       position="Technology Summer Analyst"
       :from="new Date(2019, 6)"
       :to="new Date(2019, 8)"
     >
+      <li>2-month internship at their offices in New Delhi.</li>
+      <li>
+        Built an internal tool using Express.js that completely automated the
+        process of converting incoming catalogue data (in YAML) to an SQL table
+        and successfully deployed the application on Heroku.
+      </li>
+      <li>
+        Used Python and some of its (core) Machine Learning libraries to create
+        price-prediction models for three distinct categories of the company's
+        e-commerce catalogue.
+      </li>
     </Company>
   </div>
 </template>
