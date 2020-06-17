@@ -6,7 +6,7 @@
     props: {
       sectionKey: {
         type: String,
-        default: '',
+        required: true,
       },
     },
     computed: {

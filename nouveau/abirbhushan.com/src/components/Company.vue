@@ -43,6 +43,7 @@
       },
       to: {
         type: Date,
+        default: null,
       },
     },
     methods: {

@@ -1,11 +1,11 @@
 <template>
-  <div class="content" ref="content">
+  <div ref="content" class="content">
     <Section
-      ref="section"
-      :current="key === sectionKey"
-      :key="key"
-      :sectionKey="key"
       v-for="key in sectionKeys"
+      ref="section"
+      :key="key"
+      :current="key === sectionKey"
+      :sectionKey="key"
     />
   </div>
 </template>
@@ -19,11 +19,23 @@
     components: {
       Section,
     },
+    props: {
+      sectionKey: {
+        type: String,
+        required: true,
+      },
+    },
     data: () => ({
       sectionKeys: SectionKeys,
     }),
-    props: {
-      sectionKey: String,
+    created() {
+      window.addEventListener('scroll', this.checkCurrentSection)
+    },
+    mounted() {
+      this.checkCurrentSection()
+    },
+    destroyed() {
+      window.removeEventListener('scroll', this.checkCurrentSection)
     },
     methods: {
       checkCurrentSection() {
@@ -36,15 +48,6 @@
           this.$emit('changeSection', sectionEl.sectionKey)
         }
       },
-    },
-    created() {
-      window.addEventListener('scroll', this.checkCurrentSection)
-    },
-    mounted() {
-      this.checkCurrentSection()
-    },
-    destroyed() {
-      window.removeEventListener('scroll', this.checkCurrentSection)
     },
   }
 </script>

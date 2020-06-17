@@ -4,7 +4,10 @@
   export default {
     name: 'SupportingImage',
     props: {
-      sectionKey: String,
+      sectionKey: {
+        type: String,
+        required: true,
+      },
     },
     computed: {
       style() {

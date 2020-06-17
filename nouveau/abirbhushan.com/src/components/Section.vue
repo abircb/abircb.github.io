@@ -17,8 +17,14 @@
       SectionTitle,
     },
     props: {
-      current: Boolean,
-      sectionKey: String,
+      current: {
+        type: Boolean,
+        required: true,
+      },
+      sectionKey: {
+        type: Boolean,
+        required: true,
+      },
     },
     render() {
       const section = Sections.get(this.sectionKey)
