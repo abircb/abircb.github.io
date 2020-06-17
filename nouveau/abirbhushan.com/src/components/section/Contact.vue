@@ -1,12 +1,10 @@
 <template>
   <div class="contact">
-    <!-- <p>
-      I&apos;m currently living in London, though I'm open to opportunities
-      across the globe.
-    </p> -->
     <p>
-      Email me at
-      <a href="mailto:bhushan.abir@gmail.com">bhushan.abir@gmail.com</a>.
+      If you think my skills could be of use or simply have something interesting to discuss,
+    </p>
+    <p>
+      drop me a line at <a href="mailto:bhushan.abir@gmail.com">bhushan.abir@gmail.com</a> 🤝
     </p>
   </div>
 </template>
@@ -25,6 +23,9 @@
       &:hover {
         text-decoration: none;
       }
+    }
+    .contact-details {
+      margin-left: 2%;
     }
   }
 </style>
