@@ -4,7 +4,10 @@
   export default {
     name: 'SectionTitle',
     props: {
-      sectionKey: String,
+      sectionKey: {
+        type: String,
+        default: '',
+      },
     },
     computed: {
       section() {
@@ -30,13 +33,14 @@
 
 <style scoped lang="scss">
   .section-title {
+    font-size: 1.74em;
   }
 </style>
 
 <style lang="scss">
   .section-icon {
     vertical-align: middle;
-    width: 1.2em;
+    width: 1em;
     height: 1em;
 
     .stroke {

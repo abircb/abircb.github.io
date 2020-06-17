@@ -4,14 +4,18 @@
       <div class="name">
         {{ name }}
       </div>
-      <div class="position">{{ position }}</div>
+      <div class="position">
+        {{ position }}
+      </div>
       <div class="dates">
         {{ formatDate(from) }} &ndash; {{ formatDate(to) }}<br />
       </div>
-      <div class="part-time" v-if="partTime">Part-time</div>
+      <div v-if="partTime" class="part-time">
+        Part-time
+      </div>
     </div>
     <div class="right">
-      <slot></slot>
+      <slot />
     </div>
   </div>
 </template>
@@ -22,11 +26,24 @@
   export default {
     name: 'Company',
     props: {
-      name: String,
-      position: String,
-      partTime: Boolean,
-      from: Date,
-      to: Date,
+      name: {
+        type: String,
+        required: true,
+      },
+      position: {
+        type: String,
+        required: true,
+      },
+      partTime: {
+        type: Boolean,
+      },
+      from: {
+        type: Date,
+        required: true,
+      },
+      to: {
+        type: Date,
+      },
     },
     methods: {
       formatDate(d) {

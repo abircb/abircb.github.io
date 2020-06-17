@@ -14,7 +14,7 @@ import SkillsImage from './components/supporting-image/Skills.vue'
 import WorkImage from './components/supporting-image/Work.vue'
 
 // Icons
-import ContactIcon from './assets/icons/Contact.svg'
+import ContactIcon from './assets/icons/Spock.svg'
 import SkillsIcon from './assets/icons/Skills.svg'
 import WorkIcon from './assets/icons/Work.svg'
 import OpenSourceIcon from './assets/icons/OpenSource.svg'
@@ -72,7 +72,7 @@ export const Sections = new Map([
       content: WorkSection,
       icon: WorkIcon,
       image: WorkImage,
-      title: 'Work',
+      title: ' Work',
     },
   ],
   [
@@ -82,7 +82,7 @@ export const Sections = new Map([
       content: OpenSourceSection,
       icon: OpenSourceIcon,
       image: OpenSourceImage,
-      title: 'Open source projects',
+      title: ' Open source projects',
     },
   ],
   [

@@ -5,6 +5,9 @@ module.exports = {
     ],
     rules: {
       'vue/component-definition-name-casing': ['error', 'PascalCase'],
+      'vue/component-tags-order': ['error', {
+        'order': ['template', 'script', 'style']
+      }],
     },
     parserOptions: {
         parser: 'babel-eslint',
