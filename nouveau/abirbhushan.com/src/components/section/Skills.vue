@@ -16,7 +16,6 @@
         <ul>
           <li>SASS</li>
           <li>LESS</li>
-          <li>PostCSS</li>
         </ul>
         <li>HTML5</li>
         <li>SQL</li>
@@ -24,25 +23,42 @@
       </ul>
     </div>
 
-    <div class="col">
-      <h2>Frameworks</h2>
-      <ul>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Vue.js</li>
-        <li>Bootstrap</li>
-        <li>Express.js</li>
-        <li>Django</li>
-      </ul>
-    </div>
+    <!--- 
+      <div class="col">
+        <h2>Frameworks</h2>
+        <ul>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Vue.js</li>
+          <li>Bootstrap</li>
+          <li>Express.js</li>
+          <li>Django</li>
+        </ul>
+      </div>
+    --->
+
     <div class="col">
       <h2>Technologies</h2>
       <ul>
-        <li>Git</li>
-        <li>Docker</li>
-        <li>Travis CI</li>
-        <li>Webpack</li>
-        <li>Gulp</li>
+        <li>Version Control</li>
+        <ul>
+          <li>Git</li>
+        </ul>
+        <li>Dependency Management</li>
+        <ul>
+          <li>PIP, Conda</li>
+          <li>NPM</li>
+        </ul>
+        <li>DevOps</li>
+        <ul>
+          <li>Docker</li>
+          <li>Jenkins</li>
+          <li>Travis CI</li>
+        </ul>
+        <li>MISC</li>
+        <ul>
+          <li></li>
+        </ul>
       </ul>
     </div>
   </div>

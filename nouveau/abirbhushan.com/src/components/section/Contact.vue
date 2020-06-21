@@ -1,10 +1,12 @@
 <template>
   <div class="contact">
     <p>
-      If you think my skills could be of use or simply have something interesting to discuss,
+      If you think my skills could be of use or simply have something
+      interesting to discuss,
     </p>
     <p>
-      drop me a line at <a href="mailto:bhushan.abir@gmail.com">bhushan.abir@gmail.com</a> 🤝
+      drop me a line at
+      <a href="mailto:bhushan.abir@gmail.com">bhushan.abir@gmail.com</a>
     </p>
   </div>
 </template>

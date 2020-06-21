@@ -30,12 +30,12 @@
       partTime
     >
       <li>
-        Leading and orgranising weekly tutorials for 8 first-year undergraduate
+        Organised and led weekly tutorials for 8 first-year undergraduate
         Computer Science students on the Bachelor's and the Integrated Master's
         degree.
       </li>
       <li>
-        Helping them build a foundation in the subject by assisting them with
+        Helped them build a foundation in the subject by assisting them with
         their Programming (C, Haskell, Java, and Python) and Logic (Theory of
         Computation and Compilers) modules.
       </li>

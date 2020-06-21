@@ -41,8 +41,8 @@
     </p>
     <p>
       📟
-      <a href="shorturl.at/CGOTU" target="_blank">LaTeX Cheat Sheet</a>: A LaTeX
-      cheat sheet as a Chrome extension.
+      <a href="https://shorturl.at/dlqEI" target="_blank">LaTeX Cheat Sheet</a>:
+      A LaTeX cheat sheet as a Chrome extension.
     </p>
   </div>
 </template>
