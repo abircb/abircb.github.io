@@ -1,8 +1,28 @@
 <template>
   <div class="ftic">
     <p>
+      📋
+      <a href="https://npmjs.com/package/wdym" target="_blank"
+        >WDYM (What do you mean?)</a
+      >: A tool to convert Common Log Format into more useful (and
+      human-readable) JSON and/or CSV. Especially handy when analysing server
+      log files for activity and performance. Can be used both as a
+      <a
+        href="https://github.com/abircb/wdym/wiki/API-Documentation"
+        target="_blank"
+        >Node.js library</a
+      >
+      and as a
+      <a
+        href="https://github.com/abircb/wdym#command-line-executable"
+        target="_blank"
+        >command line executable</a
+      >.
+    </p>
+    <p>
       🦠
-      <a href="https://shorturl.at/ditA0" target="_blank">COVID-19 Footprint</a
+      <a href="https://tinyurl.com/y9vzmdx3" target="_blank"
+        >COVID-19 Footprint</a
       >: A Chrome extension that provides real-time global and regional data of
       the novel coronavirus pandemic.
     </p>
@@ -24,8 +44,8 @@
     </p>
     <p>
       🔍
-      <a href="https://shorturl.at/dhjR7" target="_blank">Search GitHub</a>: A
-      Chrome extension that allows a user to construct powerful queries to
+      <a href="https://tinyurl.com/y7lcg8ze" target="_blank">Search GitHub</a>:
+      A Chrome extension that allows a user to construct powerful queries to
       search GitHub repositories, code, marketplace, etc. using 24 different
       parameters.
     </p>
@@ -41,8 +61,9 @@
     </p>
     <p>
       📟
-      <a href="https://shorturl.at/dlqEI" target="_blank">LaTeX Cheat Sheet</a>:
-      A LaTeX cheat sheet as a Chrome extension.
+      <a href="https://tinyurl.com/y9atwxoo" target="_blank"
+        >LaTeX Cheat Sheet</a
+      >: A LaTeX cheat sheet as a Chrome extension.
     </p>
   </div>
 </template>
