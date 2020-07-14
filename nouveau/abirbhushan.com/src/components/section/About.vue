@@ -9,7 +9,7 @@
     </p>
     <p>
       <strong>Featured</strong>:
-      <a href="https://shorturl.at/ditA0" target="_blank"
+      <a href="https://tinyurl.com/y9vzmdx3" target="_blank"
         >COVID-19 Footprint | Coronavirus Live Tracker</a
       >
     </p>

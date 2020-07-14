@@ -8,18 +8,18 @@
     >
     </Company>
     <Company
-      name="Facebook"
-      position="Hack-a-project Intern"
-      :from="new Date(2020, 1)"
-      :to="new Date(2020, 2)"
-    >
-    </Company>
-    <Company
       name="NTT Data"
       position="Virtual Reality (VR) Developer"
       :from="new Date(2019, 9)"
       :to="new Date(2020, 3)"
       partTime
+    >
+    </Company>
+    <Company
+      name="Facebook"
+      position="Hack-a-project Intern"
+      :from="new Date(2020, 1)"
+      :to="new Date(2020, 2)"
     >
     </Company>
     <Company
