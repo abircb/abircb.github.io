@@ -1,11 +1,15 @@
 <template>
-  <div class="work">
+  <div>
     <Company
       name="Goldman Sachs"
       position="Spring Intern"
       :from="new Date(2020, 4)"
       :to="new Date(2020, 4)"
     >
+      <li>
+        2-week internship that was conducted virtually due to the novel
+        coronavirus (COVID-19) pandemic.
+      </li>
     </Company>
     <Company
       name="NTT Data"
@@ -14,6 +18,15 @@
       :to="new Date(2020, 3)"
       partTime
     >
+      <li>
+        9-month project as part of the
+        <a
+          href="https://www.ucl.ac.uk/computer-science/collaborate/ucl-industry-exchange-network-ucl-ixn"
+          target="_blank"
+          >UCL IXN</a
+        >
+        initiative
+      </li>
     </Company>
     <Company
       name="Facebook"
@@ -21,6 +34,16 @@
       :from="new Date(2020, 1)"
       :to="new Date(2020, 2)"
     >
+      <li>
+        Explored Facebook London and gained insight into how its product teams
+        work together to provide highly-scalable services for its users.
+      </li>
+      <li>
+        Prototyped <code>Lexicon</code> — an online platform for meeting new
+        people from different ethnic backgrounds and learning about their
+        cultures and lifestyle — using React.js and Flask, in collaboration with
+        engineers at Facebook London.
+      </li>
     </Company>
     <Company
       name="UCL"
@@ -74,6 +97,11 @@
 </script>
 
 <style scoped lang="scss">
-  .work {
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 </style>

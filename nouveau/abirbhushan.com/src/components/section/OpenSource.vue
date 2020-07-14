@@ -53,8 +53,8 @@
       🚀
       <a href="https://abirbhushan.com/gravity-simulator/" target="_blank"
         >Gravity Simulator</a
-      >: A simple, customisable simulator built to understand two (or more)
-      celestial bodies interact with each other in space. Inspired by
+      >: A simple, customisable simulator built to understand how celestial
+      bodies warp the fabric of space-time. Inspired by
       <a href="https://github.com/VincentGarreau/particles.js/" target="_blank"
         >particles.js</a
       >.
@@ -76,9 +76,6 @@
 
 <style scoped lang="scss">
   .ftic {
-    p {
-      padding-left: 3.5%;
-    }
     a {
       color: inherit;
 
