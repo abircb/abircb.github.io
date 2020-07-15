@@ -22,7 +22,7 @@
         required: true,
       },
       sectionKey: {
-        type: Boolean,
+        type: String,
         required: true,
       },
     },

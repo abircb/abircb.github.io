@@ -48,7 +48,7 @@ export const Sections = new Map([
   [
     'ABOUT',
     {
-      color: '#002D40',
+      color: '#0B648A',
       content: AboutSection,
       icon: null,
       image: WelcomeImage,
@@ -58,7 +58,7 @@ export const Sections = new Map([
   [
     'SKILLS',
     {
-      color: '#0B648A',
+      color: '#86bad1',
       content: SkillsSection,
       icon: SkillsIcon,
       image: SkillsImage,

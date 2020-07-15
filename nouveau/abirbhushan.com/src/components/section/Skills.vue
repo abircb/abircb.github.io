@@ -4,12 +4,30 @@
       <h2>Languages</h2>
       <ul>
         <li>Python</li>
+        <!--- <ul>
+          <li>Flask</li>
+          <li>Data Mining</li>
+          <ul>
+            <li>BeautifulSoup</li>
+          </ul>
+          <li>Processing and Modelling</li>
+          <ul>
+            <li>NumPy</li>
+            <li>Pandas</li>
+            <li>Scikit-Learn</li>
+          </ul>
+          <li>Visualisation</li>
+          <ul>
+            <li>Matplotlib</li>
+            <li>Seaborn</li>
+          </ul>
+        </ul> -->
         <li>Java</li>
         <li>JavaScript</li>
         <ul>
-          <li>ES6</li>
-          <li>Flow</li>
+          <li>ES6+/ESNext</li>
           <li>TypeScript</li>
+          <li>Flow</li>
           <li>Node.js</li>
         </ul>
         <li>CSS</li>
@@ -44,20 +62,16 @@
         <ul>
           <li>Git</li>
         </ul>
-        <li>Dependency Management</li>
+        <li>Dependency Management (CLIs)</li>
         <ul>
           <li>PIP, Conda</li>
           <li>NPM</li>
         </ul>
         <li>DevOps</li>
         <ul>
+          <li>Maven</li>
           <li>Docker</li>
           <li>Jenkins</li>
-          <li>Travis CI</li>
-        </ul>
-        <li>MISC</li>
-        <ul>
-          <li></li>
         </ul>
       </ul>
     </div>
