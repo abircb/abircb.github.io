@@ -24,7 +24,11 @@
       <a href="https://tinyurl.com/y9vzmdx3" target="_blank"
         >COVID-19 Footprint</a
       >: A Chrome extension that provides real-time global and regional data of
-      the novel coronavirus pandemic.
+      the novel coronavirus pandemic. Built using React.js and the
+      <a
+        href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest"
+        >COVID-19 API</a
+      >
     </p>
     <p>
       ⚙️
@@ -48,6 +52,23 @@
       A Chrome extension that allows a user to construct powerful queries to
       search GitHub repositories, code, marketplace, etc. using 24 different
       parameters.
+    </p>
+    <p>
+      🔥
+      <a
+        href="https://github.com/abircb/GOSH-FHIRworks2020-Responsive-Dashboard"
+        target="_blank"
+        >GOSH FHIR Dashboard</a
+      >: Created a fast and responsive dashboard application using React.js that
+      processed, analysed, and visualised synthetically generated healthcare
+      data retrieved over
+      <a
+        href="https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources"
+        target="_blank"
+        >FHIR</a
+      >
+      from a GOSH gateway to demonstrate capabilities and advantages of the FHIR
+      standard.
     </p>
     <p>
       🚀

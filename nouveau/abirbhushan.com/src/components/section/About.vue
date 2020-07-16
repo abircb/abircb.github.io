@@ -8,7 +8,7 @@
       Web Development and Machine Learning.
     </p>
     <p>
-      <strong>Featured</strong>:
+      <strong>Featured</strong>: 🦠
       <a href="https://tinyurl.com/y9vzmdx3" target="_blank"
         >COVID-19 Footprint | Coronavirus Live Tracker</a
       >
