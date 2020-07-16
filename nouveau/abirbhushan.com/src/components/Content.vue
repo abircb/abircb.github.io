@@ -34,7 +34,7 @@
     mounted() {
       this.checkCurrentSection()
     },
-    destroyed() {
+    unmounted() {
       window.removeEventListener('scroll', this.checkCurrentSection)
     },
     methods: {
@@ -45,7 +45,7 @@
           return rect.bottom > windowMiddle
         })
         if (sectionEl && sectionEl.sectionKey !== this.sectionKey) {
-          this.$emit('changeSection', sectionEl.sectionKey)
+          this.$emit('change-section', sectionEl.sectionKey)
         }
       },
     },

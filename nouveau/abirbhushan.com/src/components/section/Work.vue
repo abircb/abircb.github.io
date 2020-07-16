@@ -10,6 +10,12 @@
         2-week internship that was conducted virtually due to the novel
         coronavirus (COVID-19) pandemic.
       </li>
+      <li>
+        Shadowed under Global Investment Research, Global Markets, and Asset
+        Management — with a focus on Engineering — and gained an in-depth
+        understanding of the different processes, requirements, and workflows at
+        the firm.
+      </li>
     </Company>
     <Company
       name="NTT Data"
@@ -19,13 +25,31 @@
       partTime
     >
       <li>
-        9-month project as part of the
+        Worked in a team of 3 to develop a software solution for the company as
+        part of the
         <a
           href="https://www.ucl.ac.uk/computer-science/collaborate/ucl-industry-exchange-network-ucl-ixn"
           target="_blank"
           >UCL IXN</a
         >
-        initiative
+        initiative.
+      </li>
+      <li>
+        Created
+        <a href="https://abirbhushan.com/autonomo" target="_blank">Autónomo</a>
+        — a Virtual Reality (VR) simulation of a self-driving car — to
+        understand and produce a reference Proof of Concept for the car-buying
+        experience of the future.
+      </li>
+      <li>
+        Designed and led the development life cycle, while regularly liasing
+        with our project partners to incrementally improve Autónomo and enhance
+        its VR experience after each subsequent iteration.
+      </li>
+      <li>
+        Completed a successful handover to the Innovation and New Ventures team
+        at the company's London offices, where Autónomo is being upgraded and
+        optimised.
       </li>
     </Company>
     <Company
@@ -36,7 +60,8 @@
     >
       <li>
         Explored Facebook London and gained insight into how its product teams
-        work together to provide highly-scalable services for its users.
+        work together to deliver highly-scalable and robust services to its
+        users.
       </li>
       <li>
         Prototyped <code>Lexicon</code> — an online platform for meeting new
@@ -55,7 +80,7 @@
       <li>
         Organised and led weekly tutorials for 8 first-year undergraduate
         Computer Science students on the Bachelor's and the Integrated Master's
-        degree.
+        programme.
       </li>
       <li>
         Helped them build a foundation in the subject by assisting them with

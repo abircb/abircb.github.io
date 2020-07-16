@@ -4,7 +4,7 @@
     <Content
       class="content"
       :sectionKey="sectionKey"
-      @changeSection="handleChangeSection"
+      @change-section="handleChangeSection"
     />
   </div>
 </template>
@@ -47,7 +47,7 @@
       this.testMediaQuery(mobileMediaQuery)
       mobileMediaQuery.addListener(this.testMediaQuery)
     },
-    destroyed() {
+    unmounted() {
       if (!mobileMediaQuery) return
       mobileMediaQuery.removeListener(this.testMediaQuery)
     },

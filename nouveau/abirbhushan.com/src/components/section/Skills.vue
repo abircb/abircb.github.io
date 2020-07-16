@@ -62,15 +62,16 @@
         <ul>
           <li>Git</li>
         </ul>
-        <li>Dependency Management (CLIs)</li>
+        <li>Dependency Management</li>
         <ul>
           <li>PIP, Conda</li>
           <li>NPM</li>
         </ul>
         <li>DevOps</li>
         <ul>
-          <li>Maven</li>
           <li>Docker</li>
+          <li>Maven</li>
+          <li>Travis CI</li>
           <li>Jenkins</li>
         </ul>
       </ul>
