@@ -22,7 +22,7 @@
     transition: transform 0.5s;
 
     &.visible {
-      transform: translate3d(-29px, 578px, -135px);
+      transform: translate3d(-49px, 578px, -135px);
     }
   }
 </style>
