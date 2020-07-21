@@ -1,7 +1,6 @@
 const execa = require('execa')
 const emoji = require('node-emoji')
 const chalk = require('chalk')
-const fs = require('fs')
 
 const e_arrows = emoji.get('fast_forward')
 const e_rocket = emoji.get('rocket')
